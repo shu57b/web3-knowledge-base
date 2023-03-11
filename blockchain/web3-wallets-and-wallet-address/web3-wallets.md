@@ -88,26 +88,6 @@ Decentralized exchanges enable non-custodial wallets to be used. This allows the
 
 Having no reliance on a third party means more responsibility for the user to manage their own keys and wallet. If you haven’t taken any precautions to regenerate your wallet, you could lose your funds.
 
-### Non-Custodial Wallets vs. Custodial Wallets
-
-#### What is a non-custodial wallet?
-
-A non-custodial wallet is a type of web3 wallet in which the user holds the private keys and has full control over their funds. This means that the user is solely responsible for the security of their funds and no third-party, including the wallet provider, has access to them. In contrast, a custodial wallet is one in which a third-party, such as an exchange, holds and controls the private keys on behalf of the user. Non-custodial wallets are considered to be more secure than custodial wallets, as they eliminate the risk of the funds being compromised or lost due to the actions or security breaches of a third-party. Non-custodial wallets can be software (desktop, mobile, and web) or hardware wallets.
-
-#### Custodial Wallets
-
-A custodial wallet is a type of web3 wallet in which a third-party, such as an exchange, holds and controls the private keys on behalf of the user. This means that the user does not have full control over their funds and the third-party, such as the exchange, has access to them. This also means that the user is not solely responsible for the security of their funds, but also the third party. In contrast, a non-custodial wallet is one in which the user holds the private keys and has full control over their funds. Examples of custodial wallets include many exchanges that allow buying, selling or trading cryptocurrencies, or some online and mobile wallets that are offered by a specific company or organization.
-
-### Email Wallets
-
-Email wallets are a subsection of custodial wallets, and they have gained significant traction recently due to the frictionless user onboarding and adoption that they enable for web3 products.
-
-Email wallets allow users to sign up for, log into, and create web3 wallets using their email addresses — making it very easy for users to use blockchain-based apps without any prior crypto experience. Because of this, many companies opt for custodial email wallets, taking care of security and the blockchain complexity for users that are unfamiliar with, or do not have, a traditional web3 wallet.
-
-The most popular email wallet provider is Magic. You can learn more about it, and how to allow users to create email wallets, in this guide:
-
-[Create Magic.Link](https://blog.thirdweb.com/guides/create-magic-wallet/)
-
 ### Smart Contract Wallets
 
 Most conventional web3 wallets are Externally Owned Accounts (EOAs), meaning they are controlled by a private key (which you can think of as a password). Smart contract wallets, on the other hand, are built on top of smart contracts, which enables security functionality that EOA wallets do not have. This is made possible by a concept called [account abstraction](https://www.argent.xyz/blog/wtf-is-account-abstraction/?ref=thirdweb).
@@ -130,11 +110,16 @@ Multi-Party Computation, or MPC, allows two or more parties to compute without r
 
 In web3, MPC wallets replace a wallet’s private key with multiple, independently-created “secret shares.” This allows a safe self-custodial option for users since you do not need to worry about losing your private key or seed phrase.
 
-You can learn more about MPC wallets in the following guide:
+### Email Wallets
 
-[How to Create A ZenGo Wallet](https://blog.thirdweb.com/guides/create-a-zengo-wallet/)
+Email wallets are a subsection of custodial wallets, and they have gained significant traction recently due to the frictionless user onboarding and adoption that they enable for web3 products.
 
+Email wallets allow users to sign up for, log into, and create web3 wallets using their email addresses — making it very easy for users to use blockchain-based apps without any prior crypto experience. Because of this, many companies opt for custodial email wallets, taking care of security and the blockchain complexity for users that are unfamiliar with, or do not have, a traditional web3 wallet.
+
+### References
 [Extract from](https://www.alchemy.com/web3-wallets-overview#web3-1)
-[Extract from](https://blog.thirdweb.com/web3-wallet/)
+[The Complete Guide to Web3 Wallets](https://blog.thirdweb.com/web3-wallet/)
 
 ## MetaMask Wallet
+
+## 
