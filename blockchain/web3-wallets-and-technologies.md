@@ -1,4 +1,10 @@
-## Intro to Web3 Wallets
+# Web3 Wallets
+
+*Author: shu@57blocks.com*
+
+xxxxxxx
+
+## Intro to Web3 Wallets 1.钱包种类
 
 Just like how people have a physical wallet to store paper money, these wallets help store access to your digital currency instead. In addition, Web3 wallets are capable of storing digital assets such as NFTs and enable users to interact with Decentralized Apps (dApps). This is done all without the necessity of a middleman involved.
 
@@ -82,7 +88,8 @@ However, that also means relying your assets on a centralized entity as they hav
 
 Decentralized exchanges enable non-custodial wallets to be used. This allows the user to maintain full custody of your private keys and funds. Many people are shifting to a non-custodial wallet because it eliminates the need for a third-party intermediary. Being non-custodial mean that there are no limits or restrictions set by fees, withdrawals, and more.
 
-### Smart Contract Wallets
+### Smart Contract and Multi-Sig Wallets
+#### Smart Contract Wallets
 
 Most conventional web3 wallets are Externally Owned Accounts (EOAs), meaning they are controlled by a private key (which you can think of as a password). Smart contract wallets, on the other hand, are built on top of smart contracts, which enables security functionality that EOA wallets do not have. This is made possible by a concept called [account abstraction](https://www.argent.xyz/blog/wtf-is-account-abstraction/?ref=thirdweb).
 
@@ -90,13 +97,19 @@ If a wallet is controlled by a smart contract, then it is programmed by that sma
 
 One specific category of wallet that is enabled by smart contract wallets, and is growing in popularity, is multi-sig wallets — which are worth expanding on further as they have various use cases for companies and organizations, when more security is important.
 
-### Multi-Sig (aka Multi-Signature) Wallets
+#### Multi-Sig (aka Multi-Signature) Wallets
 
 Multisig wallets are smart contract wallets that require more than one signature to authorize a transaction, enabling added security for the funds or assets stored within a wallet. Multisig wallets are managed by trusted third parties — like friends, family, or coworkers — that need to approve a transaction for it to go through.
 
 This makes it harder for a bad actor to hack the assets in your wallet, since they would need to have access to each party’s wallet address (or the majority, if the multisig wallet requires a majority amount of signatures).
 
 Pros include an added layer of security, but cons include the need for multiple parties to sign off on transactions, which can slow down the process.
+
+#### Examples
+
+[Argent - account abstraction](https://www.argent.xyz)
+
+[Safe (fka Gnosis Safe) - multisig](https://safe.global)
 
 ### MPC Wallets
 
@@ -111,7 +124,9 @@ Email wallets are a subsection of custodial wallets, and they have gained signif
 Email wallets allow users to sign up for, log into, and create web3 wallets using their email addresses — making it very easy for users to use blockchain-based apps without any prior crypto experience. Because of this, many companies opt for custodial email wallets, taking care of security and the blockchain complexity for users that are unfamiliar with, or do not have, a traditional web3 wallet.
 
 ### References
+
 [The 15 Best Web3 Wallets for 2022](https://www.alchemy.com/web3-wallets-overview#web3-1)
+
 [The Complete Guide to Web3 Wallets](https://blog.thirdweb.com/web3-wallet/)
 
 ## MetaMask Wallet
@@ -126,7 +141,7 @@ Metamask makes interaction with DeFi Dapps on the Ethereum network  very conveni
 
 However, it would be best if you took precautions to keep your Metamask  safe and secure. Anybody who has your password or seed phrase (a secret  phrase given to you during wallet sign-up) will have complete control of your  wallet.
 
-### Metamask: Step-by-Step Guide
+### References
 
 [How to use MetaMask: A step by step guide](https://levelup.gitconnected.com/how-to-use-metamask-a-step-by-step-guide-f380a3943fb1)
 
@@ -191,21 +206,15 @@ So what can the child private key be used for on its own? It can be used to make
 
 As mentioned previously, a very useful characteristic of HD wallets is the ability to derive public child keys from public parent keys, without having the private keys. This gives us two ways to derive a child public key: either from the child private key, or directly from the parent public key.
 
-### Details
+### References
 
 [Wallet Technology Details](https://github.com/bitcoinbook/bitcoinbook/blob/develop/ch05.asciidoc#wallet-technology-details)
 
-## How cryptography is used cryptocurrency
-
-Cryptocurrencies use cryptography for three main purposes; to secure transactions, to control the creation of additional units, and to verify the transfer of assets. To accomplish all of these things, cryptocurrencies rely on what is called “public key cryptography.”
-
-[How Cryptography Is Used Cryptocurrency](https://www.worldcryptoindex.com/how-cryptography-is-used-cryptocurrency/)
-
-## Mastering Bitcoin, Chapter 4. Keys, Addresses
+[How Cryptography Is Used in Cryptocurrency](https://www.worldcryptoindex.com/how-cryptography-is-used-cryptocurrency/)
 
 [Mastering Bitcoin, 2nd Edition by Andreas M. Antonopoulos, Chapter 4. Keys, Addresses](https://www.oreilly.com/library/view/mastering-bitcoin-2nd/9781491954379/ch04.html)
 
-## Differences between BTC and ETH wallet addresses
+## Differences between BTC and ETH wallet addresses 典型的地址类型 solana
 
 ### BTC wallet addresses:
 
