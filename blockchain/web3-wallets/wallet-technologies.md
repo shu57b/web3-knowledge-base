@@ -71,6 +71,14 @@ As mentioned previously, a very useful characteristic of HD wallets is the abili
 
 [Mastering Bitcoin, 2nd Edition by Andreas M. Antonopoulos, Chapter 4. Keys, Addresses](https://www.oreilly.com/library/view/mastering-bitcoin-2nd/9781491954379/ch04.html)
 
+[Mnemonic code words, based on BIP-39](https://github.com/bitcoin/bips/blob/master/bip-0039.mediawiki)
+
+[HD wallets, based on BIP-32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)
+
+[Multipurpose HD wallet structure, based on BIP-43](https://github.com/bitcoin/bips/blob/master/bip-0043.mediawiki)
+
+[Multicurrency and multiaccount wallets, based on BIP-44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki)
+
 ## Typical wallet addresses
 
 ### BTC wallet address:
